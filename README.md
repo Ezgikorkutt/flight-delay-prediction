@@ -4,7 +4,7 @@
 This project aims to design a machine learning model that can predict flight delays from different factors such as time of departure, airline, origin, and destination, and weather conditions. The goal is to understand the patterns of flight delays and to design the models that may help airlines and passengers to make informed decisions. 
 
 ## Motivation
-light delays are very frustrating to passengers and costly to airlines. Knowing the causes of delays and being able to predict them would help passengers better and help airlines better manage their operations. This project aims to answer key questions such as:
+Flight delays are very frustrating to passengers and costly to airlines. Knowing the causes of delays and being able to predict them would help passengers better and help airlines better manage their operations. This project aims to answer key questions such as:
 - What are the most important factors that lead to flight delays?
 - Can we predict accurately if a flight is going to be delayed?
 - How accurate are the machine learning models in estimating the length of the delay?
