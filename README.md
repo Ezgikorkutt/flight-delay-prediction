@@ -1,69 +1,69 @@
-# 📈 Flight Delay Prediction Using Machine Learning
+# Flight Delay Prediction Using Machine Learning
 
 ## Project Proposal Outline
-This project aims to build a **machine learning model** to predict **flight delays** based on various factors such as departure time, airline, origin, destination, and weather conditions. The objective is to analyze patterns in flight delays and develop predictive models that can help airlines and passengers make informed decisions.
+This project aims to design a machine learning model that can predict flight delays from different factors such as time of departure, airline, origin, and destination, and weather conditions. The goal is to understand the patterns of flight delays and to design the models that may help airlines and passengers to make informed decisions. 
 
 ## Motivation
-Flight delays are a major inconvenience for passengers and a financial burden for airlines. Understanding **why delays occur** and predicting them in advance can help passengers plan better and assist airlines in optimizing operations. This project aims to answer key questions such as:
-- **What factors contribute most to flight delays?**
-- **Can we accurately predict whether a flight will be delayed?**
-- **How well can machine learning models forecast delay duration?**
+light delays are very frustrating to passengers and costly to airlines. Knowing the causes of delays and being able to predict them would help passengers better and help airlines better manage their operations. This project aims to answer key questions such as:
+- What are the most important factors that lead to flight delays?
+- Can we predict accurately if a flight is going to be delayed?
+- How accurate are the machine learning models in estimating the length of the delay?
 
-Through **Exploratory Data Analysis (EDA), hypothesis testing, and predictive modeling**, this project will provide insights into **flight delay patterns** and potential solutions to minimize them.
+Through Exploratory Data Analysis (EDA), hypothesis testing and predictive modelling, this project will seek to understand flight delay patterns and potential solutions to reduce them.
 
 ## Dataset
 The dataset will consist of **historical flight records** with information about flight schedules, delay times, and external factors.
 
-### 1. Flight Data Sources
+### -> Flight Data Sources
 - **[Bureau of Transportation Statistics (BTS)](https://www.transtats.bts.gov/)** – Provides detailed flight performance data across US airports.
 - **[Kaggle Flight Delay Datasets](https://www.kaggle.com/)** – Contains multiple datasets on airline delays.
 
-### 2. Weather Data Sources (Enhancements)
+### -> Weather Data Sources (Enhancements)
 - **NOAA Weather Data** – To analyze the impact of weather conditions on delays.
 - **OpenWeatherMap API** – Real-time weather data that can be integrated into the model.
 
 ## Data Collection and Preprocessing Plan
-For meaningful analysis, data from multiple sources will be combined and processed to improve predictive power.
+For the purpose of data integration, the data from different sources will be combined and prepared for analysis.
 
 ### 1. Data Collection
-- Download **historical flight delay data** for major airlines and airports.
-- Collect **weather conditions** corresponding to flight times.
+- Obtain historical information on flight delays for the major airlines and airports.
+- Get the weather conditions that happened at the same time as the flights.
 
 ### 2. Data Preprocessing
-- **Clean and standardize** dataset formats.
-- Handle **missing values and inconsistent records**.
-- Convert **categorical variables** (e.g., airline names) into numerical features.
+- Ensure that all the data is in the right format and is consistent. 
+- Deal with missing data and incomplete or inconsistent observations.
+- Convert non numerical features for example airline names into numerical features.
 
 ### 3. Exploratory Data Analysis (EDA)
-- **Visualizations**: Histograms, heatmaps, and scatter plots to analyze delay patterns.
-- **Correlation analysis**: Identify relationships between features and flight delays.
-- **Outlier detection**: Detect and handle unusual flight delay cases.
+- Visualizations: Histograms, heatmaps, and scatter plots to analyze delay patterns.
+- Correlation analysis: Identify relationships between features and flight delays.
+- Outlier detection: Detect and handle unusual flight delay cases.
 
 ## Data Analysis Plan
 This project will be conducted in the following stages:
 
 ### 1. Exploratory Data Analysis (EDA)
-- **Flight Delay Trends**: Analyzing delays by airline, airport, season, and time of day.
-- **Correlation Analysis**: Finding the most influential factors on flight delays.
-- **Weather Impact**: Determining how different weather conditions contribute to delays.
+- Flight Delay Trends:  Analysis of the delays according to the airline, airport, season and time.
+- Correlation Analysis: Determine the most important factors that cause flight delays.
+- Weather Impact: Discover how different weather conditions cause delays.
 
 ### 2. Hypothesis Testing
-- **H₀ (Null Hypothesis):** Weather conditions do not significantly impact flight delays.
-- **H₁ (Alternative Hypothesis):** Severe weather conditions increase the likelihood of flight delays.
+- H₀ (Null Hypothesis): Flight delays are not affected by the weather in a significant way.
+- H₁ (Alternative Hypothesis): Severe weather conditions increase the chances of flight delays.
 
 ### 3. Predictive Modeling
-- **Classification Models**: Predict whether a flight will be delayed (Yes/No).
-- **Regression Models**: Estimate the exact delay time (in minutes).
-- **Algorithms to be tested**:
+- Classification Models: Predict whether a flight will be delayed (Yes/No).
+- Regression Models: Estimate the exact delay time (in minutes).
+- Algorithms to be tested
  
 
 ## Expected Findings
 This project is expected to reveal:
-✅ **Key factors affecting flight delays** (e.g., weather, airline, time of day).  
-✅ **High-accuracy models** for predicting delays.  
-✅ **Insights for airlines** to reduce delays and optimize schedules.
-
-Findings will be presented in **charts and interactive visualizations** for better understanding.
+- Key factors affecting flight delays (e.g., weather, airline, time of day).  
+- High-accuracy models for predicting delays.  
+- Suggestions for airlines on how to minimize delays and improve their scheduling.
+  
+Findings will be presented in charts and interactive visualizations for better understanding.
 
 ## Limitations and Future Work
 ### Limitations
@@ -77,6 +77,6 @@ Findings will be presented in **charts and interactive visualizations** for bett
 - Apply **deep learning** techniques for more complex pattern detection.
 
 ## Ethical Considerations
-- **Privacy**: All datasets used will be publicly available and anonymous.
-- **Bias Awareness**: Consideration of regional and airline-specific biases in flight delays.
-- **Transparency**: Data sources and methodologies will be fully documented.
+- Privacy: All datasets used will be publicly available and anonymous.
+- Bias Awareness: Consideration of regional and airline-specific biases in flight delays.
+- Transparency: Data sources and methodologies will be fully documented.
