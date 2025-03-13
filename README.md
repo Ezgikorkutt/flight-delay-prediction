@@ -51,10 +51,15 @@ This project will be conducted in the following stages:
 - H₀ (Null Hypothesis): Flight delays are not affected by the weather in a significant way.
 - H₁ (Alternative Hypothesis): Severe weather conditions increase the chances of flight delays.
 
-### 3. Predictive Modeling
-- Classification Models: Predict whether a flight will be delayed (Yes/No).
-- Regression Models: Estimate the exact delay time (in minutes).
-- Algorithms to be tested
+### 3.  Comparative Analysis
+- Analyzing Delay Trends: Compare delay rates across different airlines, airports, and time periods.
+- Impact of External Factors: Evaluate how different variables (e.g., time of day, weather conditions, and airline policies) influence delays.
+- Statistical Comparisons: Use statistical tests to determine significant differences in delay occurrences among different categories.
+
+### 4.  Trend and Longitudinal Analysis
+- Historical Flight Delay Trends: Study how delays have evolved over the years and identify seasonal patterns.
+- Long-Term Effects: Assess whether external factors like airport expansions, policy changes, or technological advancements have influenced delay frequencies.
+- Forecasting: Use time-series analysis techniques to predict future trends in flight delays based on historical data
  
 
 ## Expected Findings
