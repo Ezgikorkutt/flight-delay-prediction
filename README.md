@@ -14,27 +14,27 @@ Through **Exploratory Data Analysis (EDA), hypothesis testing, and predictive mo
 ## Dataset
 The dataset will consist of **historical flight records** with information about flight schedules, delay times, and external factors.
 
-### 1️1. Flight Data Sources
+### 1. Flight Data Sources
 - **[Bureau of Transportation Statistics (BTS)](https://www.transtats.bts.gov/)** – Provides detailed flight performance data across US airports.
 - **[Kaggle Flight Delay Datasets](https://www.kaggle.com/)** – Contains multiple datasets on airline delays.
 
-### 2️2. Weather Data Sources (Enhancements)
+### 2. Weather Data Sources (Enhancements)
 - **NOAA Weather Data** – To analyze the impact of weather conditions on delays.
 - **OpenWeatherMap API** – Real-time weather data that can be integrated into the model.
 
 ## Data Collection and Preprocessing Plan
 For meaningful analysis, data from multiple sources will be combined and processed to improve predictive power.
 
-### 1️⃣ Data Collection
+### 1. Data Collection
 - Download **historical flight delay data** for major airlines and airports.
 - Collect **weather conditions** corresponding to flight times.
 
-### 2️⃣ Data Preprocessing
+### 2. Data Preprocessing
 - **Clean and standardize** dataset formats.
 - Handle **missing values and inconsistent records**.
 - Convert **categorical variables** (e.g., airline names) into numerical features.
 
-### 3️⃣ Exploratory Data Analysis (EDA)
+### 3. Exploratory Data Analysis (EDA)
 - **Visualizations**: Histograms, heatmaps, and scatter plots to analyze delay patterns.
 - **Correlation analysis**: Identify relationships between features and flight delays.
 - **Outlier detection**: Detect and handle unusual flight delay cases.
@@ -65,18 +65,18 @@ This project is expected to reveal:
 
 Findings will be presented in **charts and interactive visualizations** for better understanding.
 
-## 🔎 Limitations and Future Work
-### 🔍 Limitations
+## Limitations and Future Work
+### Limitations
 - **Incomplete or biased datasets** (some flight delay reports may be missing).
 - **Correlation vs. Causation** (external factors like air traffic control issues may impact delays but not be in the dataset).
 - **Regional Differences** (delays may vary by country and airport policies).
 
-### ✨ Future Work
+### Future Work
 - Extend the analysis to **international flight data**.
 - Integrate **real-time weather data** for live delay prediction.
 - Apply **deep learning** techniques for more complex pattern detection.
 
-## 📖 Ethical Considerations
+## Ethical Considerations
 - **Privacy**: All datasets used will be publicly available and anonymous.
 - **Bias Awareness**: Consideration of regional and airline-specific biases in flight delays.
 - **Transparency**: Data sources and methodologies will be fully documented.
