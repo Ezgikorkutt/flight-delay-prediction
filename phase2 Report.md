@@ -1,14 +1,19 @@
 Flight Delay Project — Part 2
 
 ✈️ Flight Delay Prediction Using Flight and Weather Data
+
 🚀 Project Overview
+
 This project aims to analyze patterns in flight delays by integrating flight schedule data with external factors such as weather conditions, time of departure, airline, and route information. The objective is to identify key factors contributing to delays and perform statistical testing to understand their impact. These insights will form the foundation for developing a machine learning model to predict delays, helping airlines optimize operations and enabling passengers to make informed decisions.
 
 📄 Data Collection
+
 Flight Data Source:
+
 Kaggle Flight Delay Dataset (2018–2024) — Includes flight dates, scheduled and actual departure times, delay durations, airlines, and airport details.
 
 Weather Data Source:
+
 NOAA Local Climatological Data — Hourly weather conditions (e.g., temperature, wind speed, precipitation, sky condition) recorded at airport stations.
 
 Transformations & Enrichments:
@@ -97,10 +102,3 @@ Weather data reflects general airport conditions, not specific runway-level vari
 
 The analysis covers recent years only; long-term trends were not evaluated.
 
-🚀 Next Steps
-
-Implement machine learning models (Logistic Regression, Random Forest) to predict flight delays.
-
-Explore real-time data integration for live delay forecasting.
-
-Consider adding more external factors, such as air traffic control alerts or maintenance issues, in future work.
